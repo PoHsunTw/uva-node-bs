@@ -1,0 +1,38 @@
+{
+  "name": "uva-node-bs",
+  "description": "UVa Command Line Tool",
+  "version": "0.1.14",
+  "author": "PoHsun",
+  "homepage": "https://github.com/PoHsunTw/uva-node-bs",
+  "bugs": "https://github.com/PoHsunTw/uva-node-bs/issues",
+  "keywords": [
+    "uva",
+    "programming",
+    "competitive",
+    "competition"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PoHsunTw/uva-node-bs.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "main": "index",
+  "bin": {
+    "uva": "./index.js"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "async": "1.3.0",
+    "colors": "~0.6.0",
+    "extend": "^3.0.2",
+    "jsdom": "9.8.3",
+    "node-xlsx": "^0.14.1",
+    "request": "2.58.0",
+    "sprintf": "~0.1.1"
+  }
+}
